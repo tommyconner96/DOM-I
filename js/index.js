@@ -104,6 +104,8 @@ let navadd = document.querySelector('nav')
 let appended = document.createElement('a')
 let prepended = document.createElement('a')
 appended.textContent = 'last one'
+appended.style.color = 'green'
 navadd.appendChild(appended)
 prepended.textContent = 'first one'
+prepended.style.color = 'green'
 navadd.prepend(prepended)
